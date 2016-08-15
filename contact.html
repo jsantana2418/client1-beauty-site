@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Meta -->
+    <meta name="description" content="The Lash & Brow beauty studio located in the Back Bay, specializes in Eyelash Extensions, offering a range of beauty services including Facials, Lash & Brow Tinting and more. Owned and operated by Joeimy Gonzalez a Licensed
+Aesthetician. This unique beauty studio offers a casual experience with safety, quality, and using the best techniques as the main priority.">
+    <meta name="keywords" content="lash, eyelashes, brow, brows, beauty salon, salon, spa, hair cuts, makeup, nails, waxing, boostrap, responsive, html5, css3, jquery, theme, uikit, multicolor, parallax, boston, new england" />
+    <meta name="author" content="joeimy gonzalez">
+    <meta name="robots" content="index, follow" />
+    <meta name="revisit-after" content="3 days" />
+
+    <title>Lash & Brows by Joeimy - Contact</title>
+
+    <!-- Styles -->
+    <!-- Uikit CSS -->
+    <link href="assets/css/uikit.min.css" rel="stylesheet">
+    <link href="assets/css/slidenav.almost-flat.css" rel="stylesheet">
+    <link href="assets/css/slideshow.almost-flat.css" rel="stylesheet">
+    <link href="assets/css/sticky.almost-flat.css" rel="stylesheet">
+    <link href="assets/css/tooltip.almost-flat.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!-- Animate CSS -->
+    <link href="assets/css/animate.css" rel="stylesheet" />
+    <!-- Sprocket Strips CSS -->
+    <link href="assets/css/product.css" rel="stylesheet" />
+    <link href="assets/css/strips.css" rel="stylesheet" />
+    <link href="assets/css/quotes.css" rel="stylesheet" />
+    <!-- Font Awesome -->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Pe-icon-7-stroke Fonts -->
+    <link href="assets/css/helper.css" rel="stylesheet">
+    <link href="assets/css/pe-icon-7-stroke.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,700,300|Mr+De+Haviland' rel='stylesheet' type='text/css'>
+    <!-- Template CSS -->
+    <link href="assets/css/template.css" rel="stylesheet">
+    <link href="assets/color/color1.css" rel="stylesheet" type="text/css" title="color1">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWtlwFYBxT4YjF6rSfe_Vuf4uapwC9Q3E"></script>
+    <script>
+        "use strict";
+        var myCenter = new google.maps.LatLng(42.3523806, -71.075523);
+        var myPinCenter = new google.maps.LatLng(42.3523806, -71.075523);
+
+        function initialize() {
+            var mapCanvas = document.getElementById('mapCanvas');
+            var mapOptions = {
+                center: myCenter,
+                zoom: 16,
+                scrollwheel: false,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            }
+            var map = new google.maps.Map(mapCanvas, mapOptions)
+                //var iconBase = 'https://maps.google.com/mapfiles/kml/pushpin/';
+            var iconBase = 'images/elements/';
+            var marker = new google.maps.Marker({
+                position: myPinCenter,
+                map: map,
+                icon: iconBase + ''
+            });
+            marker.setMap(map);
+            var infowindow = new google.maps.InfoWindow({
+                content: "<div id='legend' style='color: #000 !important; text-align: center;'>Lash & Brow beauty studio</div>"
+            });
+            infowindow.open(map, marker);
+        }
+        google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+
+</head>
+
+<body>
+    <!-- Wrap all page content -->
+    <div class="body-innerwrapper" id="page-top">
+
+        <!-- Sticky Menu -->
+        <div id="header-sticky-wrapper" class="sticky-wrapper">
+            <header data-uk-sticky id="header" class="header">
+                <div class="container">
+                    <div class="row" style="position: relative;">
+                        <div class="col-xs-8 col-sm-2 col-md-2" id="logo">
+                            <a href="index.html" class="logo">
+                                <h1>
+<!-- <img alt="Hammer" src="images/presets/preset1/transparent_background.png" class="default-logo"> -->
+<!-- <img width="190" height="35" alt="Hammer" src="images/presets/preset1/logo2x.png" class="retina-logo"> -->
+</h1>
+                            </a>
+                        </div>
+                        <div class="col-xs-4 col-sm-10 col-md-10" id="menu">
+                            <div><a href="#" id="offcanvas-toggler"><i class="pe-7s-menu"></i></a></div>
+                            <div>
+                                <ul class="megamenu-parent menu-fade visible-lg">
+                                    <li class="menu-item"><a href="index.html">Home</a></li>
+                                    <li class="menu-item"><a href="about-us.html">About</a></li>
+                                    <li class="menu-item has-child menu-justify">
+                                        <a href="services.html">Services</a>
+                                        <div style="" class="dropdown dropdown-main dropdown-mega menu-full container900">
+                                            <div class="dropdown-inner">
+                                                <div class="row">
+                                                    <div class="col-sm-4 width300">
+                                                        <ul class="mega-group">
+                                                            <li class="menu-item has-child">
+                                                                <a href="services.html#eyelash-service-anchor" class="group-title">Eyelash Extensions</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-sm-4 width300">
+                                                        <ul class="mega-group">
+                                                            <li class="menu-item has-child">
+                                                                <a href="services.html#makeup-service-anchor" class="group-title">Makeup</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-sm-4 width300">
+                                                        <ul class="mega-group">
+                                                            <li class="menu-item has-child">
+                                                                <a href="services.html#microblading-service-anchor" class="group-title">Microblading (3D Brows)</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-sm-4 width300">
+                                                        <ul class="mega-group">
+                                                            <li class="menu-item has-child">
+                                                                <a href="services.html#lashnbrowtinting-service-anchor" class="group-title">Lash and Brow Tinting</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-12"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="menu-item current-item active"><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <!-- /Sticky Menu -->
+
+        <!-- Page Title -->
+        <section id="page-title">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 title">
+                        <div class="page-title">
+                            <h2>Contact</h2>
+                            <ol class="breadcrumb">
+                                <li>You are here: &nbsp;</li>
+                                <li><a class="pathway" href="index.html">Home</a></li>
+                                <li class="active">Contact</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /Page Title -->
+
+        <!-- Main Body -->
+        <section class="main-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-6 map" id="left">
+                        <div id="mapCanvas" class="map-canvas"></div>
+                    </div>
+                    <div class="col-sm-6 col-md-6">
+                        <h3>Contact</h3>
+                        <form class="form-horizontal">
+                            <fieldset>
+                                <legend>Send an Email. All fields with an asterisk (*) are required.</legend>
+                                <div class="form-group">
+                                    <label for="client_Name" class="control-label label-left col-xs-4">Name *</label>
+                                    <div class="col-xs-8">
+                                        <input type="text" class="form-control" id="client_Name" placeholder=" Your name" name="client_Name" required>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="client_Email" class="control-label label-left col-xs-4">Email *</label>
+                                    <div class="col-xs-8">
+                                        <input type="email" class="form-control" id="client_Email" placeholder=" Email for contact" name="client_Email" required>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="contact_Number" class="control-label label-left col-xs-4">Tel *</label>
+                                    <div class="col-xs-8">
+                                        <input type="tel" class="form-control" id="contact_Number" placeholder=" Number for contact" name="contact_Number" required pattern="[0-9]{10}">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="subject_Selection" class="control-label label-left col-xs-4">Subject *</label>
+                                    <div class="col-xs-8">
+                                      <select class="form-control" id="subject_Selection" name="subject_Selection">
+                                        <option>Book Appointment</option>
+                                        <option>Question</option>
+                                        <option>Other</option>
+                                      </select>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="client_Message" class="control-label label-left col-xs-4">Message *</label>
+                                    <div class="col-xs-8">
+                                        <textarea class="form-control" id="client_Message" placeholder="Enter your message here" name="client_Message" required></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="monthlySpecials" class="control-label label-left col-xs-4">Monthly Specials</label>
+                                    <div class="col-xs-8">
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox" id="monthlySpecials" name="monthlySpecials">Sign up for monthly specials</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label label-left col-xs-4"></label>
+                                    <div class="col-xs-8">
+                                        <button class="btn btn-primary validate" type="submit" aria-invalid="false">Send Email</button>
+                                    </div>
+                                </div>
+                                <div id="thankyouBlock" style="display:none">
+                                  <h3>
+                                    Thank you for filling out the form. The email was sent.
+                                  </h3>
+                                </div>
+                                <!-- <input type="hidden" name="_next" value="http://www.josesantanaproject.com/contact.html" /> -->
+                                <input type="text" name="_gotcha" style="display:none" />
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="main-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12">
+                        <h2>Cancellation Policy:</h2>
+                        <h5>Lash & Brows by Joeimy has a 24 hour cancellation policy.
+If you need to cancel a reservation or reschedule one, 24 hours notice is required.
+Appointments cancelled in less than the required time will be charged $25.
+Late arrivals will result in a shortened appointment.</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /Main Body -->
+
+
+        <!-- Social Bar -->
+        <section class="social-bar social-bar-not-gold">
+            <div class="row">
+                <div class="col-sm-12 col-md-12">
+                    <div class="module ">
+                        <div class="module-content">
+                            <div class="uk-grid uk-grid-collapse uk-text-center">
+                                <div class="uk-width-medium-1-3">
+                                    <a class="uk-icon-button uk-icon-facebook" href="http://facebook.com/lashnbrowsbyj.com" target="_blank"></a>
+                                </div>
+                                <div class="uk-width-medium-1-3">
+                                    <a class="uk-icon-button uk-icon-youtube" href="https://www.youtube.com/channel/UCTp6PRE-5RYidtXUj0zsaVQ" target="_blank"></a>
+                                </div>
+                                <div class="uk-width-medium-1-3">
+                                    <a class="uk-icon-button uk-icon-instagram" href="https://www.instagram.com/lashnbrowsbyj/" target="_blank"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /Social Bar -->
+
+        <!-- Social Bar Mobile -->
+<section class="social-bar social-bar-gold">
+<div class="row">
+<div class="col-sm-12 col-md-12">
+<div class="module ">
+<div class="module-content">
+<div class="uk-grid uk-grid-collapse uk-text-center">
+<div class="uk-width-medium-1-3">
+<a class="uk-icon-button" href="https://www.facebook.com/lashnbrowsbyj/" target="_blank">
+<img src="images/elements/facebook.png" alt="facebook icon" class="center-block"/>
+</a>
+</div>
+<div class="uk-width-medium-1-3">
+<a class="uk-icon-button" href="https://www.youtube.com/channel/UCTp6PRE-5RYidtXUj0zsaVQ" target="_blank">
+<img src="images/elements/youtube.png" alt="youtube icon" class="center-block"/>
+</a>
+</div>
+<div class="uk-width-medium-1-3">
+<a class="uk-icon-button" href="https://www.instagram.com/lashnbrowsbyj/" target="_blank">
+<img src="images/elements/instagram.png" alt="instagram icon" class="center-block"/>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+        <!-- /Social Bar Mobile-->
+
+        <!-- Bottom -->
+        <section class="bottom-b">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3 col-md-5">
+                        <div class="module ">
+                            <div class="module-content">
+                                <img alt="lash & brow by joeimy logo" src="images/presets/preset1/transparent_background.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-md-3">
+                        <div class="module title3">
+                            <h3 class="module-title">About</h3>
+                            <div class="module-content">
+                                <p>Located in the Back Bay, this Lash & Brow Studio specializes in Eyelash Extensions, offering a range of beauty services including Brow shaping, makeup and more. Owned and operated by Joeimy Gonzalez a Licensed Aesthetician.
+                                    This unique Beauty Studio offers a casual experience with safety, quality and using the best techniques as the main priority.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-md-2">
+                        <div class="module title3">
+                            <h3 class="module-title">Address</h3>
+                            <div class="module-content">
+                                <p class="uk-text-contrast"><i class="uk-icon-hospital-o"></i>&nbsp;&nbsp;45 Newbury Street, Boston MA 02116</p>
+                                <p><i class="uk-icon-envelope"></i>&nbsp;&nbsp;
+                                    <br>info@lashnbrowsbyj.com</p>
+                                <p><i class="uk-icon-phone "></i>&nbsp;&nbsp;617.917.4170</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-2 col-md-2">
+                        <div class="module title3">
+                            <h3 class="module-title">Hours</h3>
+                            <div class="module-content">
+                                <p>Monday - Friday:
+                                    <br>07:00 AM - 8:00 PM <i class="pe-7s-like"></i></p>
+                                <p>Saturday:
+                                    <br>08:00 AM - 6:00 PM <i class="pe-7s-like"></i></p>
+                                <p>Sunday:
+                                    <br>Availability upon request <i class="pe-7s-like"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /Bottom -->
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-6" id="footer1">
+                        <span class="copyright"> &copy; 2016 Lash & Brows by Joeimy. All Rights Reserved.</span>
+                    </div>
+                    <div class="col-sm-6 col-md-6 footer2">
+                        <div class="module ">
+                            <div class="module-content">
+                                <a href="#" class="uk-icon-button uk-icon-angle-up" data-uk-smooth-scroll=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- /Footer -->
+
+        <!-- Off Canvas Menu -->
+        <div class="offcanvas-menu">
+            <a class="close-offcanvas" href="#"><i class="uk-icon-remove"></i></a>
+            <div class="offcanvas-inner">
+                <div class="module">
+                    <h3 class="module-title">Menu</h3>
+                    <div class="module-content">
+                        <ul class="nav menu">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about-us.html">About</a></li>
+                            <li class="deeper parent">
+                                <a href="services.html">Services</a>
+                                <ul style="display: none;" class="nav-child unstyled small">
+                                    <li class="deeper parent">
+                                        <a href="services.html#eyelash-service-anchor">Eyelash Extensions</a>
+                                    </li>
+                                    <li class="deeper parent">
+                                        <a href="services.html#makeup-service-anchor">Makeup</a>
+                                    </li>
+                                    <li class="deeper parent">
+                                        <a href="services.html#microblading-service-anchor">Microblading</a>
+                                    </li>
+                                    <li class="deeper parent">
+                                        <a href="services.html#lashnbrowtinting-service-anchor">Lash & Brow Tinting</a>
+                                    </li>
+                                </ul>
+                                <span class="toggle-icon fa fa-angle-down"></span>
+                            </li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /Off Canvas Menu -->
+    </div>
+
+
+    <!-- Scripts placed at the end of the document so the pages load faster -->
+
+    <!-- Jquery scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+
+    <!-- Uikit scripts -->
+    <script src="assets/js/uikit.min.js"></script>
+    <script src="assets/js/slideshow.min.js"></script>
+    <script src="assets/js/slideset.min.js"></script>
+    <script src="assets/js/sticky.min.js"></script>
+    <script src="assets/js/tooltip.min.js"></script>
+    <script src="assets/js/parallax.min.js"></script>
+    <script src="assets/js/lightbox.min.js"></script>
+    <script src="assets/js/grid.min.js"></script>
+
+    <!-- WOW scripts -->
+    <script src="assets/js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+    <!-- Оffcanvas Мenu scripts -->
+    <script src="assets/js/offcanvas-menu.js"></script>
+
+    <!-- Template scripts -->
+    <script src="assets/js/template.js"></script>
+    <script src="assets/js/custom.js"></script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+
+
+</body>
+
+</html>
